@@ -1,6 +1,6 @@
 package com.cache.test.net
 
-import com.aleyn.cache.CacheInterceptor
+import com.aleyn.cache.NetCacheInterceptor
 import com.aleyn.cache.CacheManager
 import com.aleyn.cache.CacheMode
 import com.cache.test.base.BaseApplication
@@ -55,7 +55,7 @@ class NetWorkClient private constructor() {
             .addInterceptor(HttpLoggingInterceptor().apply {
                 level = HttpLoggingInterceptor.Level.BODY
             })
-            .addInterceptor(CacheInterceptor(CacheManager(BaseApplication.get().cacheDir)))
+            .addInterceptor(NetCacheInterceptor(CacheManager(BaseApplication.get().cacheDir)))
             .build()
     }
 

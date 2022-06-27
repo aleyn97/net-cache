@@ -26,6 +26,7 @@ dependencies {
     implementation 'com.github.AleynP:net-cache:1.0.0'
 }
 ```
+[![](https://jitpack.io/v/AleynP/net-cache.svg)](https://jitpack.io/#AleynP/net-cache)
 
 # 缓存策略
 

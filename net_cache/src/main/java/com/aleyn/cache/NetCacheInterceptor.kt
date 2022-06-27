@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit
  * @author : Aleyn
  * @date : 2022/06/23 14:45
  */
-class CacheInterceptor(
+class NetCacheInterceptor(
     private val mCache: ICache
 ) : Interceptor {
 
