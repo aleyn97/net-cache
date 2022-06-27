@@ -40,7 +40,7 @@ dependencies {
 
 ```kotlin
 OkHttpClient.Builder()
-    .addInterceptor(CacheInterceptor(CacheManager(cacheDir, maxSize)))
+    .addInterceptor(NetCacheInterceptor(CacheManager(cacheDir, maxSize)))
     .build()
 ```
 
