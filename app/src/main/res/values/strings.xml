@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cache</string>
+    <string name="login">登录</string>
+    <string name="article">文章</string>
+</resources>
